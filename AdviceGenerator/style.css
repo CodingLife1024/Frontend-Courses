@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body, body{
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(217, 19%, 24%);
+    width: 70%;
+    max-width: 600px;
+    flex-direction: column;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 15px;
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    padding-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    letter-spacing: 4px;
+}
+
+.center{
+    font-size: 28px;
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.line{
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.bottom {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: hsl(150, 100%, 66%);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.bottom:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%); 
+}
